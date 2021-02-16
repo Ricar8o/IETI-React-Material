@@ -9,9 +9,15 @@
 [![material](https://img.shields.io/badge/dependencies-material--ui-yellow)](https://material-ui.com/)
 [![react-router](https://img.shields.io/badge/dependencies-react--router-blue)](https://reacttraining.com/react-router/)
 
+## LocalStorage Data
+
+**username:** Default
+
+**password:** 1234567
 
 
-React project using Material-UI library.
+
+# React project using Material-UI library.
 
 ## Part 1: Create a Login Component
 1. Clone the repository, install and run the project to verify that it works:
