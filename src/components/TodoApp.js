@@ -54,7 +54,7 @@ export class TodoApp extends Component {
                         <DatePicker
                             id="due-date"
                             value={this.state.dueDate}
-                            placeholderText="Due date"
+                            placeholder="Due date"
                             onChange={this.handleDateChange}>
                         </DatePicker>
                     </MuiPickersUtilsProvider>
