@@ -13,6 +13,7 @@ const TodoAppView = () => (
     <TodoApp/>
 );
 
+
 class App extends Component {
 
     constructor(props) {
@@ -41,7 +42,7 @@ class App extends Component {
                     <div>
                         <Route exact path="/" component={LoginView}/>
                         
-                        { this.state.isLoggedIn && 
+                        { localStorage.getItem('isLoggedIn') && 
                         <Route path="/todo" component={TodoAppView}/>
                         }
                     </div>
